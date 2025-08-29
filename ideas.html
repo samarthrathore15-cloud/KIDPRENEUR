@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Kidii • Explore Ideas</title>
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="page-ideas">
+  <header class="site-header" role="banner">
+    <div class="header-inner container">
+      <a class="brand" href="index.html" aria-label="Kidii home"><img src="assets/images/kidii.png" alt="Kidii"></a>
+      <nav id="mainNav" class="main-nav" role="navigation" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="debate.html">Debate</a>
+        <a class="nav-link" href="submit.html">Submit</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      <button id="mobileToggle" class="mobile-toggle" aria-expanded="false" aria-controls="mainNav">☰</button>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="Ideas hero">
+    <div class="hero__bg"></div>
+    <div class="hero__animated" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="hero-content container" data-aos="fade-up">
+      <h1 class="hero-title">Brilliant Ideas</h1>
+      <p class="hero-sub">Explore student startup ideas — read problems, solutions and get inspired.</p>
+      <div class="hero-actions"><a href="submit.html" class="btn btn-primary">Share your idea</a></div>
+    </div>
+  </section>
+
+  <main class="page-content container" role="main">
+    <section class="ideas-section" aria-labelledby="ideasHeading">
+      <h2 id="ideasHeading">All Ideas</h2>
+      <div id="ideasList" class="ideas-grid" data-aos="fade-up" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="muted-2">© 2025 Kidii</p>
+      <div><a class="link-muted" href="submit.html">Submit</a> • <a class="link-muted" href="debate.html">Debate</a></div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

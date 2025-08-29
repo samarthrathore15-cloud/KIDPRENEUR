@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kidii • Contact</title>
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="page-contact">
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html" aria-label="Kidii home"><img src="assets/images/kidii.png" alt="Kidii"></a>
+      <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="ideas.html">Explore Ideas</a>
+        <a class="nav-link" href="debate.html">Debate</a>
+        <a class="nav-link" href="submit.html">Submit</a>
+        <a class="nav-link" href="about.html">About</a>
+      </nav>
+      <button id="mobileToggle" class="mobile-toggle" aria-expanded="false" aria-controls="mainNav">☰</button>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="Contact hero">
+    <div class="hero__bg"></div>
+    <div class="hero__animated" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="hero-content container" data-aos="fade-up">
+      <h1 class="hero-title">Contact Us</h1>
+      <p class="hero-sub">Questions, feedback, or partnership ideas? Drop a message — we’ll get back soon.</p>
+    </div>
+  </section>
+
+  <main class="page-content container" style="padding-top:24px">
+    <div style="display:grid;grid-template-columns:1fr 360px;gap:28px">
+      <div>
+        <h2>Send a message</h2>
+        <form id="contactForm" data-aos="fade-up">
+          <div style="margin-bottom:10px"><label class="small">Name</label><br><input name="name" placeholder="Your name" required></div>
+          <div style="margin-bottom:10px"><label class="small">Email</label><br><input name="email" type="email" placeholder="email@example.com" required></div>
+          <div style="margin-bottom:10px"><label class="small">Message</label><br><textarea name="message" rows="6" placeholder="Write your message..." required></textarea></div>
+          <div style="display:flex;gap:12px"><button type="submit" class="btn btn-primary">Send message</button><button type="reset" class="btn btn-light">Reset</button></div>
+        </form>
+      </div>
+
+      <aside>
+        <div class="card glass" style="padding:16px;margin-bottom:14px">
+          <h3>Get in touch</h3>
+          <p class="muted small">Prefer email? We read every message.</p>
+          <p style="margin-top:8px"><strong>Email:</strong> <a class="link-muted" href="mailto:hello@kidii.example">hello@kidii.example</a></p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Location:</strong> India (Remote-first)</p>
+        </div>
+
+        <div class="card" style="padding:0;border-radius:12px;overflow:hidden">
+          <!-- Map embed that doesn't require an API key -->
+          <iframe class="map" src="https://www.google.com/maps?q=Jindal%20World%20School&output=embed" style="width:100%;height:320px;border:0;" loading="lazy"></iframe>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="muted-2">© 2025 Kidii. Built for student innovators.</p>
+      <div><a class="link-muted" href="submit.html">Submit</a> • <a class="link-muted" href="ideas.html">Explore</a> • <a class="link-muted" href="debate.html">Debate</a></div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Kidii • Submit Idea</title>
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="page-submit">
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html" aria-label="Kidii home"><img src="assets/images/kidii.png" alt="Kidii"></a>
+      <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="ideas.html">Explore Ideas</a>
+        <a class="nav-link" href="debate.html">Debate</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      <button id="mobileToggle" class="mobile-toggle" aria-expanded="false" aria-controls="mainNav">☰</button>
+    </div>
+  </header>
+
+  <main class="page-content container" role="main">
+    <div style="max-width:800px;margin:0 auto">
+      <h2>Submit Your Idea</h2>
+      <p class="muted">Share your startup idea — explain the problem and how your solution solves it.</p>
+
+      <form id="ideaForm" data-aos="fade-up" aria-label="Submit idea">
+        <div style="margin-bottom:12px">
+          <label for="title">Title</label><br>
+          <input id="title" name="title" type="text" placeholder="Idea title" required>
+        </div>
+        <div style="margin-bottom:12px">
+          <label for="category">Category</label><br>
+          <input id="category" name="category" type="text" placeholder="Education, Tech, Environment..." required>
+        </div>
+        <div style="margin-bottom:12px">
+          <label for="description">Description</label><br>
+          <textarea id="description" name="description" rows="6" placeholder="Describe the idea & problem solved" required></textarea>
+        </div>
+        <div style="display:flex;gap:10px">
+          <button class="btn btn-primary" type="submit">Submit Idea</button>
+          <a class="btn btn-light" href="ideas.html">See Ideas</a>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="muted-2">© 2025 Kidii</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

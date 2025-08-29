@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Kidii • Debate</title>
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="page-debate">
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html" aria-label="Kidii home"><img src="assets/images/kidii.png" alt="Kidii"></a>
+      <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="ideas.html">Explore Ideas</a>
+        <a class="nav-link" href="submit.html">Submit</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      <button id="mobileToggle" class="mobile-toggle" aria-expanded="false" aria-controls="mainNav">☰</button>
+    </div>
+  </header>
+
+  <main class="page-content container" role="main">
+    <div class="section-head">
+      <h2>Debates</h2>
+      <a class="link-muted" href="index.html">Home</a>
+    </div>
+
+    <div class="grid-two">
+      <div>
+        <h3>Start a new debate</h3>
+        <form id="debateForm" style="margin-top:10px" aria-label="Create debate">
+          <input name="title" id="debateTitle" placeholder="Debate title" required><br><br>
+          <textarea name="body" id="debateBody" rows="4" placeholder="Describe the debate" required></textarea><br><br>
+          <button id="debateSubmit" class="btn btn-primary">Create Debate</button>
+        </form>
+      </div>
+
+      <div>
+        <h3>Active debates</h3>
+        <div id="debatesList"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="muted-2">© 2025 Kidii</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kidii • Home</title>
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="page-home">
+  <header class="site-header" role="banner">
+    <div class="header-inner container">
+      <a class="brand" href="index.html" aria-label="Kidii home"><img src="assets/images/kidii.png" alt="Kidii"></a>
+      <nav id="mainNav" class="main-nav" role="navigation" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="ideas.html">Explore Ideas</a>
+        <a class="nav-link" href="debate.html">Debate</a>
+        <a class="nav-link" href="submit.html">Submit</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+      <button id="mobileToggle" class="mobile-toggle" aria-expanded="false" aria-controls="mainNav">☰</button>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="Hero">
+    <div class="hero__bg"></div>
+    <div class="hero__animated" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <div class="hero-content container" data-aos="fade-up">
+      <h1 class="hero-title">Big Ideas. Bold Debates. Bright Futures.</h1>
+      <p class="hero-sub" data-aos="fade-up" data-aos-delay="80">
+        Kidii brings student entrepreneurs together — explore ideas, join debates, and build your startup-savvy skills.
+      </p>
+      <div class="hero-actions" data-aos="zoom-in" data-aos-delay="160">
+        <a href="ideas.html" class="btn btn-primary">Explore Ideas</a>
+        <a href="submit.html" class="btn btn-light">Submit Your Idea</a>
+        <a href="debate.html" class="btn btn-light">Join Debates</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="page-content container" role="main">
+    <section class="featured" aria-labelledby="featuredHeading">
+      <div class="section-head">
+        <h2 id="featuredHeading">Featured Ideas</h2>
+        <a class="link-muted" href="ideas.html">See all</a>
+      </div>
+      <div id="featuredIdeas" class="cards-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="hot-topics" aria-labelledby="hotHeading">
+      <h2 id="hotHeading">🔥 Hot Topics</h2>
+      <div class="topics-grid">
+        <div class="topic-card" data-aos="zoom-in">
+          <h3>Startup Hacks for Teens</h3>
+          <p class="author">by Ananya Gupta</p>
+          <p class="summary">Quick tips and tricks for young entrepreneurs to kickstart their business journey.</p>
+          <div class="tags"><span>#Entrepreneurship</span><span>#TeensInBiz</span></div>
+        </div>
+
+        <div class="topic-card" data-aos="zoom-in" data-aos-delay="80">
+          <h3>Future of AI in Education</h3>
+          <p class="author">by Mark Wilson</p>
+          <p class="summary">How AI tools are transforming the way students learn and teachers teach.</p>
+          <div class="tags"><span>#AI</span><span>#EdTech</span></div>
+        </div>
+
+        <div class="topic-card" data-aos="zoom-in" data-aos-delay="160">
+          <h3>Eco-Friendly Startups</h3>
+          <p class="author">by Priya Sharma</p>
+          <p class="summary">Young changemakers are building businesses that care for the planet.</p>
+          <div class="tags"><span>#GreenBusiness</span><span>#Sustainability</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="debates" aria-labelledby="debatesHeading" style="margin-top:28px">
+      <div class="section-head">
+        <h2 id="debatesHeading">Trending Debates</h2>
+        <a class="link-muted" href="debate.html">Join the debate</a>
+      </div>
+      <div id="debatesList" class="grid-two" aria-live="polite"></div>
+    </section>
+
+    <section class="team" style="margin-top:28px">
+      <div class="team-wrap">
+        <div class="team-head">
+          <div>
+            <h2>Meet the Team</h2>
+            <p class="muted small">The minds behind Kidii.</p>
+          </div>
+        </div>
+
+        <div class="team-grid">
+          <div class="gradient-border" data-aos="zoom-in">
+            <div class="glass-inner"><div class="avatar">S</div><h3>Samarth</h3><p class="muted small">Project lead, UX & product flow.</p></div>
+          </div>
+
+          <div class="gradient-border" data-aos="zoom-in" data-aos-delay="80">
+            <div class="glass-inner"><div class="avatar">A</div><h3>Anjaneya</h3><p class="muted small">Backend & data (likes/IP rules).</p></div>
+          </div>
+
+          <div class="gradient-border" data-aos="zoom-in" data-aos-delay="160">
+            <div class="glass-inner"><div class="avatar">A</div><h3>Atharw</h3><p class="muted small">Research & Content Strategy.</p></div>
+          </div>
+        </div>
+
+        <div class="team-cta" style="margin-top:14px">
+          <a href="about.html" class="btn btn-primary">Know more about us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" style="margin-top:28px">
+      <div class="cta-inner">
+        <h3>Your idea could be the next big thing.</h3>
+        <div class="flip-card" aria-hidden="true">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"><div class="topic-front"><h3>AI in Education</h3></div></div>
+            <div class="flip-card-back"><div class="topic-back"><p><strong>By:</strong> Samarth</p><p><strong>Problem:</strong> Engagement gaps in digital classrooms.</p><p><strong>Solution:</strong> AI-driven personalized quizzes.</p></div></div>
+          </div>
+        </div>
+        <p class="muted small">Don’t keep it in your notebook. Share it, debate it, build it.</p>
+        <div class="cta-actions"><a class="btn btn-primary" href="submit.html">Submit Now</a><a class="btn btn-light" href="ideas.html">Explore Ideas</a></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="muted-2">© 2025 Kidii. Built for student innovators.</p>
+      <div>
+        <a class="link-muted" href="submit.html">Submit</a> •
+        <a class="link-muted" href="ideas.html">Explore</a> •
+        <a class="link-muted" href="debate.html">Debate</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
